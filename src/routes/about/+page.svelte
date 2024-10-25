@@ -1,77 +1,44 @@
-<script>
-	import skills from '$lib/Skills';
-</script>
-
 <svelte:head>
-	<title>Gianmarco Cavallo — About</title>
+	<title>Sean Carlyle — About</title>
 </svelte:head>
 
-<div class="container">
+<div>
 	<main>
 		<h1>About</h1>
 		<p>
-			I'm a Software developer with over 2 years of front-end development experience, experienced in
-			both enterprise and open-source software development. I'm based in Italy and currently working
-			as a freelancer and coding in Node.js, React.js (and other web technologies) and Go(lang), but
-			I tend to learn and use the best technology and approach to best solve the problem I'm facing.
+			I recently graduated from the University of California, Santa Cruz, with a degree in Computer Science.
+			My journey into technology began with a fascination for video games and how they worked, which ultimately led me to pursue a career in software development.
+			I found a passion for building software that invites interaction and brings enjoyment to others.
+			Through my job and personal projects, I have gained valuable experience in languages like JavaScript and Python, but I am always looking to improve.
 		</p>
-		<h2>Skills</h2>
-		{#each Object.entries(skills) as [section, technologies]}
-			<ul>
-				<li>
-					<h4>
-						{section}:
-					</h4>
-					<div class="list">
-						{#each technologies as technology}
-							<div>
-								{technology}
-							</div>
-						{/each}
-					</div>
-				</li>
-			</ul>
-		{/each}
+		<p>
+			I also have a passion for game development and really enjoy the creative challenge.
+			I am currently seeking opportunities to improve my craft and work on important projects that foster collaboration and encourage continuous learning.
+		</p>
 	</main>
+
+	<div>
+		<img src='background.png' alt="pixel-artwork" id="background-image">
+	</div>
 </div>
 
 <style>
-	.container {
-		max-width: 900px;
-		padding: 0;
+	div {
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
+		height: 100%; 
+		justify-content: flex-start; 
 	}
 
 	main {
-		max-width: 100%;
-		min-height: 500px;
-		text-align: left;
-		margin: 0 auto;
-		box-sizing: border-box;
+		padding: 20px;
 	}
 
-	h1 {
-		font-weight: 700;
-		margin: 0 0 50px 0;
-		font-size: 36px;
-		text-align: start;
-	}
-
-	h2 {
-		margin-top: 50px;
-	}
-
-	.list {
-		display: flex;
-		flex-direction: column;
-		gap: 30px;
+	#background-image {
+		image-rendering: pixelated;
 	}
 
 	@media (min-width: 900px) {
-		.list {
-			flex-direction: row;
-		}
 		main > h1 {
 			font-size: 48px;
 		}

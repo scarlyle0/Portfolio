@@ -3,6 +3,7 @@
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte';
 	import { modalOpened } from '$lib/store';
+	import SkillExpList from '$lib/components/SkillExpList.svelte';
 </script>
 
 <svelte:head>
@@ -53,6 +54,9 @@
 			</div>
 		</a>
 	</div>
+
+	<SkillExpList></SkillExpList>
+
 </main>
 
 <style>
@@ -63,6 +67,7 @@
 		align-items: center;
 		justify-content: space-between;
 		gap: 50px;
+		padding-top: 300px;
 
 	}
 
@@ -88,7 +93,7 @@
 	}
 
 	main > h1 {
-		margin: 50px 10px 0;
+		margin: 70px 10px 0;
 		font-size: 36px;
 	}
 
@@ -127,11 +132,11 @@
 	}
 	h1 {
 		font-weight: 700;
-		margin: 0px 0; /* Adjust margin here */
+		margin: 0px 0;
 	}
 
 	h2 {
-		margin: 0; /* Remove margin to reduce space */
+		margin: 0;
 	}
 
 	img {
