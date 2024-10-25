@@ -1,3 +1,3 @@
 # Personal Portfolio with Svelte
 
-Template inspired by thanks to https://github.com/Ladvace
+Thanks to template creator https://github.com/Ladvace
