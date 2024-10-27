@@ -2,6 +2,7 @@
 	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte';
+	import FaFile from 'svelte-icons/fa/FaFile.svelte';
 	import { modalOpened } from '$lib/store';
 	import SkillExpList from '$lib/components/SkillExpList.svelte';
 </script>
@@ -53,6 +54,16 @@
 				<FaLinkedin />
 			</div>
 		</a>
+		<a
+		href="Sean_Carlyle_Resume.pdf"
+		aria-label="resume"
+		target="_blank"
+		rel="noopener noreferrer"
+	>
+		<div style="transform: scale(0.7)"class="icon">
+			<FaFile />
+		</div>
+	</a>
 	</div>
 
 	<SkillExpList></SkillExpList>
@@ -92,11 +103,6 @@
 		font-weight: 700;
 	}
 
-	main > h1 {
-		margin: 70px 10px 0;
-		font-size: 36px;
-	}
-
 	.icons {
 		display: flex !important;
 		justify-content: center !important;
@@ -117,12 +123,6 @@
 	}
 	.icon:hover {
 		color: #ca3c25;
-	}
-
-	@media (min-width: 900px) {
-		main > h1 {
-			font-size: 48px;
-		}
 	}
 
 	@media (min-width: 600px) {

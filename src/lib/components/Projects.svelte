@@ -21,17 +21,18 @@
                         </div>
                     </div>
                     <div class="descandimg">
-                        <p>
-                            {project.description}
-                        </p>
-                        {#if project.img != ''}
-                        <img src={project.img} alt="l">
-                        {/if }
+						<p>{project.description}</p>
+						{#if project.video}
+							<video width="256" height="256" controls autoplay loop muted>
+								<source src={project.video} type="video/mp4">
+								Your browser does not support the video tag.
+							</video>
+						{/if}
                     </div>
                     <div style="display: flex; gap: 10px;">
                         {#if project.url != ''}
                             <a href={project.url} target="_blank" rel="noreferrer">
-                                <div class="button">see project</div>
+                                <div class="button">see more</div>
                             </a>
                         {/if }
                         {#if project.code != ''}
@@ -109,7 +110,7 @@
 		text-align: left;
 	}
 
-	img {
+	video {
 		width: 256px;
 		height: 256px;
 		border-radius: 10px;
@@ -144,7 +145,7 @@
 			flex-direction: column; /* Switch to column for mobile */
 		}
 		
-		img {
+		video {
 			width:256px;
 			height: 256px;
 			border-radius: 10px;
