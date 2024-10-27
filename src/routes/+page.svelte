@@ -55,7 +55,7 @@
 			</div>
 		</a>
 		<a
-		href="Sean_Carlyle_Resume.pdf"
+		href="SeanCarlyleResume.pdf"
 		aria-label="resume"
 		target="_blank"
 		rel="noopener noreferrer"
