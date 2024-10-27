@@ -78,8 +78,7 @@
 		align-items: center;
 		justify-content: space-between;
 		gap: 50px;
-		padding-top: 300px;
-
+		padding-top: 60px;
 	}
 
 	a {
@@ -94,9 +93,10 @@
 
 		display: flex;
 		flex-direction: column;
-		height: calc(100vh - 80px - 88px);
-		justify-content: center;
+		min-height: 100vh;
+		justify-content: flex-start;
 		align-items: center;
+		
 	}
 
 	h1 {
@@ -130,6 +130,8 @@
 			max-width: none;
 		}
 	}
+
+	
 	h1 {
 		font-weight: 700;
 		margin: 0px 0;
