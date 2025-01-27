@@ -9,10 +9,9 @@
 			I recently graduated from the University of California, Santa Cruz, with a degree in Computer Science.
 			My journey into technology began with a fascination for video games and how they worked, which ultimately led me to pursue a career in software development.
 			I found a passion for building software that invites interaction and brings enjoyment to others.
-			Through my job and personal projects, I have gained valuable experience in languages like JavaScript and Python, but I am always looking to improve.
+			Through my job and personal projects, I have gained valuable experience, but I am always looking to improve and to explore new avenues in technology.
 		</p>
 		<p>
-			I also have a passion for game development and really enjoy the creative challenge.
 			I am currently seeking opportunities to improve my craft and work on important projects that foster collaboration and encourage continuous learning.
 		</p>
 	</main>

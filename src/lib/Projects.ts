@@ -1,5 +1,23 @@
 const projects = [
 	{
+		title: 'TwoFrame.gg - Full Stack Tournament Management Website for Video Games',
+		technologies: ['Next.js', 'React', 'Supabase', 'HeroUI', 'Supabase', 'DrizzleORM'],
+		description:
+			'Spearheaded the development of a full-stack web application for managing esports tournaments, inspired by platforms like Start.gg. Designed and implemented user authentication and database schema using Supabase and PostgreSQL for secure and efficient data storage. Developed user-centric frontend pages, including profiles and login systems, using React and Next.js, with a polished design achieved through HeroUI and Tailwind CSS.',
+		url: '',
+		code: 'https://github.com/TwoFrame/twoframe',
+		video: '',
+	},
+	{
+		title: 'Mobile App Development: Tether',
+		technologies: ['Flutter', 'Dart', 'Firebase', 'Android Studio',],
+		description:
+			'Collaborated with a team of two developers to create a Flutter-based mobile app aimed at fostering long-distance connections. Designed and developed a Flutter-based mobile application for Android, leveraging Firebase for authentication, Firestore for data storage, and Firebase Storage for media uploads. Collaboratively designed and implemented the messaging system to foster a more intuitive and streamlined user experience. ',
+		url: '',
+		code: 'https://github.com/kainoajim/anchor',
+		video: '',
+	},
+	{
 		title: 'Full Stack Messaging Web Application',
 		technologies: ['Node.js', 'Express.js', 'PostgreSQL', 'React', 'Javascript'],
 		description:

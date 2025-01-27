@@ -1,9 +1,6 @@
 const skills = {
-	'programming languages': ['JavaScript', 'Python', 'GDScript', 'C', 'C++', 'SQL'
-	],
-	'markup and styling languages': ['HTML', 'CSS'],
-	'frameworks and libraries': ['React.js', 'Express.js', 'SvelteKit', 'Three.js'],
-	'database management systems': ['PostgreSQL'],
-	'other technologies': ['Node.js', 'Git', 'Docker', 'Odoo', 'OpenGL', 'Godot', 'Unity', 'Selenium']
+    'Languages': ['JavaScript', 'Python', 'C', 'C++', 'C#', 'TypeScript', 'Dart', 'SQL', 'Bash', 'HTML', 'CSS'],
+    'Frameworks and Libraries': ['Flutter', 'React.js', 'Node.js', 'Next.js', 'Express.js', 'Tailwind', 'NumPy', 'Pandas'],
+    'Technologies and Practices': ['Git', 'Docker', 'PostgreSQL', 'Supabase', 'Firebase', 'AWS', 'Linux', 'Selenium', 'Odoo', 'Android', 'Scrum', 'Agile', 'Unity', 'Godot']
 };
 export default skills;

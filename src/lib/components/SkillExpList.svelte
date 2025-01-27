@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Gavyn Ezell — About</title>
+	<title>Sean Carlyle — About</title>
 </svelte:head>
 
 <div class="container">

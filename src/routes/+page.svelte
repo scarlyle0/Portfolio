@@ -15,7 +15,6 @@
 		<img src="portrait.jpg" alt="pfp">
 		<div>
 			<h1>Sean Carlyle</h1>
-			<h2>Software Developer</h2>
 		</div>
 	</div>
 	<div class="icons">
@@ -55,7 +54,7 @@
 			</div>
 		</a>
 		<a
-		href="SeanCarlyleResume.pdf"
+		href="Sean_Carlyle_Resume.pdf"
 		aria-label="resume"
 		target="_blank"
 		rel="noopener noreferrer"
@@ -135,10 +134,6 @@
 	h1 {
 		font-weight: 700;
 		margin: 0px 0;
-	}
-
-	h2 {
-		margin: 0;
 	}
 
 	img {
