@@ -30,7 +30,7 @@ const projects = [
 		title: 'WebGL 3DGraphics Website',
 		technologies: ['WebGL', 'Javascript', 'HTML'],
 		description:
-			'Created a website showcasing a 3D world with base WebGL in Javascript and HTML, no libraries used. The program contains various functionalities like a working object loader from scratch, ability to texture objects, camera movement, shape generation and more. Extensive use of WebGL and coding in Javascript to create the world as well as render the objects nside it. Also utilized object oriented programming to modularize code.',
+			'Created a website showcasing a 3D world with base WebGL in Javascript and HTML, no libraries used. The program contains various functionalities like a working object loader from scratch, ability to texture objects, camera movement, shape generation and more. Extensive use of WebGL and coding in Javascript to create the world as well as render the objects inside it. Also utilized object oriented programming to modularize code.',
 		url: 'https://youtu.be/pMWlUyvFL6w',
 		code: 'https://github.com/scarlyle0/WebGL-Projects',
 		video:'wgls.mp4',
